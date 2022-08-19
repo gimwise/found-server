@@ -9,5 +9,8 @@ PyJWT==2.4.0
 python-decouple==3.6
 pytz==2022.1
 sqlparse==0.4.2
+dj-database-url==1.0.0
+psycopg2-binary==2.9.3
+whitenoise==6.2.0
 
 psycopg2==2.6.2
