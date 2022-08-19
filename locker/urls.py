@@ -9,7 +9,9 @@ router.register(r'lockers', views.LockerViewSet)
 router.register(r'memo', views.MemoViewSet)
 router.register(r'favorites', views.FavoriteViewSet)
 
+
 urlpatterns = router.urls
+# urlpatterns += path('lockers/<int:pk>')
 
 # from rest_framework import routers
 # from .views import LockerViewSet
