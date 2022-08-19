@@ -2,6 +2,7 @@ from .models import Favorites, Locker, MeMo
 from .serializers import FavoriteSerializer, LockerSerializer, MemoSerializer
 from rest_framework.viewsets import ModelViewSet
 from rest_framework import permissions
+from rest_framework.response import Response
 
 class LockerViewSet(ModelViewSet):
     queryset = Locker.objects.all()
